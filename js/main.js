@@ -4,8 +4,6 @@ AOS.init({
   once: false,
 });
 
-jQuery(document).ready(function ($) {
-  "use strict";
-
-  $(".year").html(new Date().getFullYear());
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelector(".year").innerHTML = new Date().getFullYear();
 });
