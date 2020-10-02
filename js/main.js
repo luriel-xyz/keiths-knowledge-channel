@@ -29,6 +29,19 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   animateIntro();
+
+  subliminalFlash(
+    [
+      "Subscribe",
+      "Like videos",
+      "Share this website",
+      "Share videos",
+      "Amazing website",
+      "Keith is cute",
+      "CUTE",
+    ],
+    { textcolor: "rgba(253,77,64,0.7)" }
+  );
 });
 
 window.onload = function () {
