@@ -33,21 +33,25 @@ document.addEventListener("DOMContentLoaded", () => {
   subliminalFlash(
     [
       "Subscribe",
-      "Like videos",
+      "Like his videos",
       "Share this website",
-      "Share videos",
+      "Share his videos",
       "Amazing website",
       "Keith is cute",
       "CUTE",
     ],
-    { textcolor: "rgba(253,77,64,0.7)" }
+    {
+      textColor: "rgba(253,77,64,0.9)",
+      font: "2.5rem Arial",
+      displayProbability: 0.15,
+    }
   );
 });
 
 window.onload = function () {
   Particles.init({
     selector: ".background",
-    color: "#fff",
+    color: ["#fff", "#fd4d40", "#ffc107"],
     sizeVariations: 5,
     responsive: [
       {

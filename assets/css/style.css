@@ -1166,10 +1166,11 @@ h5,
   .site-section-cover {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)),
       url(../images/keith_portrait.jpg);
-    background-size: cover;
+    background-size: auto;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    overflow-x: hidden;
   }
 
   .site-section-cover .text {
